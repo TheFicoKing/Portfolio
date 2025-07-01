@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js" defer></script>
+    <title>Personal Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bxr bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Filip Atanasovski</h1>
+        <h3>And I'm a <span>Software Engineering student at FINKI</span></h3>
+        <p>
+          I'm passionate about learning and building modern, responsive websites
+          using HTML, CSS, and JavaScript.<br />
+          As a future software engineer, I enjoy solving real-world problems
+          through code and creating user-friendly web experiences.<br />
+          I'm always excited to explore new technologies and grow as a front-end
+          developer.
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.instagram.com/filip.atanasovski.73/"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+        <a href="CV.doc" download class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="images/slika.jpg" alt="img" />
+      </div>
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/slika2.jpg" alt="img2" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Engineering Student</h3>
+        <p>
+          Ever since I was a child, I've had a strong curiosity for how
+          computers work. I spent countless hours exploring technology,
+          experimenting with software, and teaching myself the basics of
+          programming. That early fascination only grew stronger over time and
+          became a defining part of who I am. <br /><br />
+
+          I later attended SUGS Rade Jovcevski - "Korcagin" High School, where I
+          built a solid academic foundation and continued to nurture my interest
+          in technology. This passion naturally led me to pursue higher
+          education at the Faculty of Computer Science and Engineering (FINKI),
+          where I am currently studying Software Engineering. <br /><br />
+
+          I'm especially passionate about front-end development. I enjoy
+          creating visually engaging and user-friendly interfaces that combine
+          both creativity and logical thinking. Building websites that not only
+          look good but also solve real problems is something I truly find
+          fulfilling. <br /><br />
+
+          Outside of the digital world, I have a big love for animals, and I'm
+          also deeply fascinated by real estate and architecture. I find joy in
+          observing how both physical and virtual spaces are designed to meet
+          human needs. <br /><br />
+
+          I'm someone who is constantly curious and motivated to learn. I
+          believe that the tech world offers limitless opportunities to grow,
+          create, and make a real impact — and I'm excited to be part of it.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!--interests section-->
+    <section class="interests" id="interests">
+      <h2 class="heading">My <span>Interests</span></h2>
+
+      <div class="interests-container">
+        <div class="interests-box">
+          <i class="bxr bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            I've always been captivated by the way websites combine design,
+            interaction, and logic to create engaging experiences. Web
+            development allows me to bring ideas to life in the browser —
+            transforming simple layouts into responsive, dynamic platforms. I
+            enjoy building clean, interfaces using modern frameworks and best
+            practices that make every click feel natural and intuitive.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="interests-box">
+          <i class="bxr bx-microchip"></i>
+          <h3>Software engineering</h3>
+          <p>
+            For me, software engineering is more than just writing code — it's
+            about solving problems in a structured, thoughtful way. I'm drawn to
+            the process of architecting systems, optimizing performance, and
+            creating maintainable codebases. Whether it's designing algorithms
+            or collaborating on large-scale projects, I find joy in turning
+            complex challenges into elegant, functional solutions.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="interests-box">
+          <i class="bxr bx-building-house"></i>
+          <h3>Real estate</h3>
+          <p>
+            Real estate has always been a strong personal interest of mine. I
+            actively follow the housing and investment markets, track trends,
+            and enjoy learning how location, design, and timing impact value.
+            While my main focus is technology, I see real estate as a long-term
+            side path — something I would love to be involved in professionally
+            one day. It combines my curiosity for growth, strategy, and smart
+            decision-making.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form
+        action="mailto:atanasovskifilip51@gmail.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <div class="input-box">
+          <input type="text" name="Full Name" placeholder="Full Name" />
+          <input type="email" name="Email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" name="Phone" placeholder="Mobile phone" />
+          <input type="text" name="Subject" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!--footer section-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Made by Filip | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bxr bx-arrow-up-stroke"></i> </a>
+      </div>
+    </footer>
+
+    <!--custum js-->
+    <script src="script.js"></script>
+  </body>
+</html>
